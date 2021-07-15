@@ -1,0 +1,93 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(129, 129, 129);
+}
+
+
+
+h1, h2, h3 {
+    color: rgb( 152, 53, 113)
+}
+
+h1 {
+    line-height: 25px;
+}
+
+h2 {
+    line-height: 10px;
+    margin-bottom: 10px;    
+}
+
+h3 {
+    line-height: 0;
+    font-style: italic;
+
+}
+
+h4 {
+    color: rgb(77, 77, 77);
+    line-height: 0;
+}
+
+img {
+    height: auto;
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    
+}
+
+button {
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgb(142, 43, 103);
+    color: white;
+    border: 0;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+button:active {
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgb(142, 43, 103);
+    color: blue;
+    border: 0;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    }
+
+.card {
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2);
+}
+
+.card .right-side{
+    width: 50%;
+    height: 100%;
+    margin: 20px;
+    order: 1;
+}
+
+.card .left-side {
+    width: 50%;
+    height: 100%;
+    order: 0;
+}
